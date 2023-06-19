@@ -15,7 +15,7 @@ int main(){
         day=num%100;
         cout<<month;
         if(day<10){
-            printf("0");
+            cout<<"0";
         }
         cout<<day<<" ";
         if(month==1){                   //use day and month to decide

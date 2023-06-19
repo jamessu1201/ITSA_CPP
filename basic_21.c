@@ -15,6 +15,6 @@ int main(){
             min=a;
         }
     }
-    cout<<"maximum:"<<max<<endl;
-    cout<<"minimum:"<<min<<endl;
+    cout<<"maximum:"<<fixed<<setprecision(2)<<max<<endl;
+    cout<<"minimum:"<<fixed<<setprecision(2)<<min<<endl;
 }

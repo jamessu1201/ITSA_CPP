@@ -20,7 +20,7 @@ int main(){
     cout<<space<<endl;
     for(int i=0;i<26;i++){
         if(alpha[i]!=0){
-            cout<<i+'a'<<" : "<<alpha[i]<<endl;
+            cout<<(char)(i+'a')<<" : "<<alpha[i]<<endl;
         }
     }
 }

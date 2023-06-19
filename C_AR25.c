@@ -15,7 +15,7 @@ int main(){
     }
     for(i=127;i>=0;i--){        //print the answer
         if(ascii[i]!=0){
-            cout<<i<<ascii[i]<<endl;
+            cout<<i<<" "<<ascii[i]<<endl;
         }
     }
 }
